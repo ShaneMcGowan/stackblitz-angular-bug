@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-module-a-component',
-  template: `<button [routerLink]="'/module-b'">Go to Module B</button>`
+  template: '<div>Module A Loaded</div>'
 })
 export class ModuleAComponent {
 
